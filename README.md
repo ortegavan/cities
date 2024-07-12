@@ -50,3 +50,9 @@ ng generate environments
 ```
 
 -   Adicionadas URLs da API no arquivo `environment.ts`.
+
+4. Migrado `css` para `scss` com o assistente abaixo:
+
+```bash
+ng add schematics-scss-migrate
+```
